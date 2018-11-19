@@ -1,0 +1,78 @@
+s = input("请输入：")
+list1 = s.split("/")
+a = int(list1[0])
+b = int(list1[1])
+if a > 12:
+    print("日期不存在")
+if a == 1:
+    if b > 31:
+        print("日期不存在")
+    else:
+        b = b
+        print("这是2018年的第%d天。" % (b))
+if a == 2:
+    if b > 28:
+        print("日期不存在")
+    else:
+        b = 31 + b
+        print("这是2018年的第%d天。" % (b))
+if a == 3:
+    if b > 31:
+        print("日期不存在")
+    else:
+        b = 59 + b
+        print("这是2018年的第%d天。" % (b))
+if a == 4:
+    if b > 30:
+        print("日期不存在")
+    else:
+        b = 90 + b
+        print("这是2018年的第%d天。" % (b))
+if a == 5:
+    if b > 31:
+        print("日期不存在")
+    else:
+        b = 120 + b
+        print("这是2018年的第%d天。" % (b))
+if a == 6:
+    if b > 30:
+        print("日期不存在")
+    else:
+        b = 151 + b
+        print("这是2018年的第%d天。" % (b))
+if a == 7:
+    if b > 31:
+        print("日期不存在")
+    else:
+        b = 181 + b
+        print("这是2018年的第%d天。" % (b))
+if a == 8:
+    if b > 31:
+        print("日期不存在")
+    else:
+        b = 212 + b
+        print("这是2018年的第%d天。" % (b))
+if a == 9:
+    if b > 30:
+        print("日期不存在")
+    else:
+        b = 243 + b
+        print("这是2018年的第%d天。" % (b))
+if a == 10:
+    if b > 31:
+        print("日期不存在")
+    else:
+        b = 273 + b
+        print("这是2018年的第%d天。" % (b))
+if a == 11:
+    if b > 30:
+        print("日期不存在")
+    else:
+        b = 304 + b
+        print("这是2018年的第%d天。" % (b))
+if a == 12:
+    if b >31:
+        print("日期不存在")
+    else:
+        b = 334 + b
+        print("这是2018年的第%d天。" % (b))
